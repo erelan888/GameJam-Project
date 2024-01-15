@@ -35,7 +35,7 @@ if(place_meeting(x + horizontal_speed, y, obj_wall)){
 x += horizontal_speed;
 
 //Vertical Collision
-if(place_meeting(x, y + sign(vertical_speed), obj_wall)){
+if(place_meeting(x, y + vertical_speed, obj_wall)){
 	while(!place_meeting(x, y + sign(vertical_speed), obj_wall)){
 		y += sign(vertical_speed);	
 	}

@@ -22,6 +22,7 @@
     {"name":"obj_propaganda","order":4,"path":"objects/obj_propaganda/obj_propaganda.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_camera","order":5,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_propaganda","order":4,"path":"sprites/spr_propaganda/spr_propaganda.yy",},
     {"name":"obj_citizen","order":2,"path":"objects/obj_citizen/obj_citizen.yy",},
     {"name":"spr_full_goblin","order":3,"path":"sprites/spr_full_goblin/spr_full_goblin.yy",},

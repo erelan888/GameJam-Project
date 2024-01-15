@@ -45,7 +45,6 @@ switch(current_state){
 		break;
 	case CITIZEN_STATE.CONSUMING:
 		consumption_countdown--;
-		//TODO: display consuming bar value
 		//TODO: play consuming animation
 		if(consumption_countdown <= 0){
 			instance_create_layer(x, y, "Citizens", obj_goblin);
