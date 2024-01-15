@@ -1,7 +1,7 @@
 /// @description controls player movement
 
-//Get player input for movement
 
+//Get player input for movement
 if(hascontrol){
 	var _key_left  = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	var _key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
