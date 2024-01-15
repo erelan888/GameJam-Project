@@ -17,14 +17,18 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_weapon","order":6,"path":"objects/obj_weapon/obj_weapon.yy",},
     {"name":"spr_citizen","order":2,"path":"sprites/spr_citizen/spr_citizen.yy",},
     {"name":"obj_goblin","order":3,"path":"objects/obj_goblin/obj_goblin.yy",},
     {"name":"obj_propaganda","order":4,"path":"objects/obj_propaganda/obj_propaganda.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"spr_arrow","order":6,"path":"sprites/spr_arrow/spr_arrow.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_camera","order":5,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_propaganda","order":4,"path":"sprites/spr_propaganda/spr_propaganda.yy",},
     {"name":"obj_citizen","order":2,"path":"objects/obj_citizen/obj_citizen.yy",},
+    {"name":"spr_weapon","order":5,"path":"sprites/spr_weapon/spr_weapon.yy",},
+    {"name":"obj_arrow","order":7,"path":"objects/obj_arrow/obj_arrow.yy",},
     {"name":"spr_full_goblin","order":3,"path":"sprites/spr_full_goblin/spr_full_goblin.yy",},
   ],
 }
