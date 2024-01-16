@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"spr_Wall","path":"sprites/spr_Wall/spr_Wall.yy",},},
+    {"id":{"name":"spr_gandalf","path":"sprites/spr_gandalf/spr_gandalf.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
     {"id":{"name":"spr_citizen","path":"sprites/spr_citizen/spr_citizen.yy",},},
     {"id":{"name":"obj_goblin","path":"objects/obj_goblin/obj_goblin.yy",},},
@@ -45,6 +46,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_propaganda","path":"sprites/spr_propaganda/spr_propaganda.yy",},},
     {"id":{"name":"obj_citizen","path":"objects/obj_citizen/obj_citizen.yy",},},
+    {"id":{"name":"obj_gandalf","path":"objects/obj_gandalf/obj_gandalf.yy",},},
     {"id":{"name":"spr_weapon","path":"sprites/spr_weapon/spr_weapon.yy",},},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
