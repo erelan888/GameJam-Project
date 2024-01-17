@@ -4,4 +4,5 @@ gravity_modifer = 0.2;
 walk_speed = 4;
 hascontrol = true;
 
-hit_points = 4;
+max_hit_points = 10;
+hit_points = max_hit_points;
