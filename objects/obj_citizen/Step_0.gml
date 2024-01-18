@@ -58,7 +58,6 @@ perception_cooldown--;
 
 //Perception Check
 if(perception_cooldown <= 0){
-	show_debug_message("Execute Perception Check");
 	//reset cooldown
 	perception_cooldown = irandom_range(min_perception_cooldown, max_perception_cooldown);	
 	//Create collision_rectangle looking for propoganda object.
