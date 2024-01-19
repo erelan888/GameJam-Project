@@ -6,9 +6,9 @@ enum GOBLIN_STATE { CHILL, CHASING, CALMING, FULL_GOBLIN };
 	ATTACKING -> Performing attacks on the enemy 
 */
 
-current_state = GOBLIN_STATE.CHASING;
+current_state = GOBLIN_STATE.CHILL;
 
-perception_radius = 500;
+perception_radius = 60;
 perception_cooldown = 20; // number of frames between checks
 min_perception_cooldown = 5;
 max_perception_cooldown = 60;
@@ -17,15 +17,15 @@ max_hp = 5;
 hit_points = max_hp;
 
 damage = 1;
-attack_cooldown = 30;
-attack_distance = 5;
-target = noone;
+attack_cooldown = 45;
+attack_distance = 30;
+target = obj_player;
 looking_for = [obj_player]; 
 
-target_x = x;
-target_y = y;
+target_x = target.x;
+target_y = target.y;
 
-walk_speed = 4;
+walk_speed = 2.5;
 horizontal_speed = walk_speed;
 vertical_speed = 0;
 gravity_modifier = 0.3;
