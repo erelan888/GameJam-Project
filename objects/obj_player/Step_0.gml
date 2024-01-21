@@ -45,3 +45,4 @@ if(place_meeting(x, y + vertical_speed, obj_wall)){
 y += vertical_speed;
 //Animation - TODO
 
+current_slap_timer--;

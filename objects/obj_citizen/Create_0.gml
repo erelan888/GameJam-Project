@@ -10,6 +10,7 @@ current_state = CITIZEN_STATE.CHILL;
 consumption_countdown_max = 120;
 consumption_countdown = consumption_countdown_max;
 
+//Perception
 perception_radius = 20;
 perception_cooldown = 20; // number of frames between checks
 min_perception_cooldown = 5;
@@ -28,8 +29,12 @@ starting_point_x = x;
 starting_point_y = y;
 wander_distance = 120;
 
+//Walking Around
 walk_speed = 3;
 horizontal_speed = walk_speed;
 vertical_speed = 0;
 gravity_modifier = 0.3;
 
+//Slapping & Conversion
+has_been_slapped = false;
+conversion_radius = 100;

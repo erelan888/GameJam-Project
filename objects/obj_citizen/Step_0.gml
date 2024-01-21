@@ -46,6 +46,21 @@ switch(current_state){
 	case CITIZEN_STATE.CONSUMING:
 		consumption_countdown--;
 		//TODO: play consuming animation
+		if(has_been_slapped == true){
+			current_state = CITIZEN_STATE.CHILL;
+			consumption_countdown = consumption_countdown_max;
+			has_been_slapped = false;
+			//Start converting villagers close by
+			var _conversion_event = collision_rectangle(x-perception_radius, y-perception_radius, x+perception_radius, y+perception_radius, obj_citizen, false, true);
+			if(_conversion_event != noone){
+				with(_conversion_event){
+					if(_conversion_event  == obj_citizen){
+						//Found a thing.. but only one. NEED THEM ALL
+					}
+				}
+			}
+		}
+		//transform
 		if(consumption_countdown <= 0){
 			instance_create_layer(x, y, "Citizens", obj_goblin);
 			show_debug_message("Converting to Goblin");
