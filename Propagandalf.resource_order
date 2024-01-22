@@ -19,6 +19,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_gandalf","order":7,"path":"sprites/spr_gandalf/spr_gandalf.yy",},
+    {"name":"TitleScreen","order":1,"path":"rooms/TitleScreen/TitleScreen.yy",},
     {"name":"obj_weapon","order":6,"path":"objects/obj_weapon/obj_weapon.yy",},
     {"name":"spr_citizen","order":2,"path":"sprites/spr_citizen/spr_citizen.yy",},
     {"name":"obj_goblin","order":3,"path":"objects/obj_goblin/obj_goblin.yy",},
@@ -33,6 +34,9 @@
     {"name":"obj_gandalf","order":8,"path":"objects/obj_gandalf/obj_gandalf.yy",},
     {"name":"spr_weapon","order":5,"path":"sprites/spr_weapon/spr_weapon.yy",},
     {"name":"obj_arrow","order":7,"path":"objects/obj_arrow/obj_arrow.yy",},
+    {"name":"spr_title_screen_background","order":9,"path":"sprites/spr_title_screen_background/spr_title_screen_background.yy",},
+    {"name":"spr_title_screen_button","order":10,"path":"sprites/spr_title_screen_button/spr_title_screen_button.yy",},
+    {"name":"obj_title_screen_button","order":1,"path":"objects/obj_title_screen_button/obj_title_screen_button.yy",},
     {"name":"spr_full_goblin","order":3,"path":"sprites/spr_full_goblin/spr_full_goblin.yy",},
   ],
 }

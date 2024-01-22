@@ -7,7 +7,9 @@ hascontrol = true;
 max_hit_points = 10;
 hit_points = max_hit_points;
 
-slap_radius = 50;
+slap_radius = 60;
 slap_reset = 60;
 current_slap_timer = slap_reset;
 looking_for = [obj_citizen];
+
+jump_count = 0;

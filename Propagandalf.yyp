@@ -37,6 +37,7 @@
   "resources": [
     {"id":{"name":"spr_Wall","path":"sprites/spr_Wall/spr_Wall.yy",},},
     {"id":{"name":"spr_gandalf","path":"sprites/spr_gandalf/spr_gandalf.yy",},},
+    {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
     {"id":{"name":"spr_citizen","path":"sprites/spr_citizen/spr_citizen.yy",},},
     {"id":{"name":"obj_goblin","path":"objects/obj_goblin/obj_goblin.yy",},},
@@ -52,11 +53,15 @@
     {"id":{"name":"spr_weapon","path":"sprites/spr_weapon/spr_weapon.yy",},},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"spr_title_screen_background","path":"sprites/spr_title_screen_background/spr_title_screen_background.yy",},},
+    {"id":{"name":"spr_title_screen_button","path":"sprites/spr_title_screen_button/spr_title_screen_button.yy",},},
+    {"id":{"name":"obj_title_screen_button","path":"objects/obj_title_screen_button/obj_title_screen_button.yy",},},
     {"id":{"name":"spr_full_goblin","path":"sprites/spr_full_goblin/spr_full_goblin.yy",},},
     {"id":{"name":"obj_citizen_text","path":"objects/obj_citizen_text/obj_citizen_text.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType": null,
