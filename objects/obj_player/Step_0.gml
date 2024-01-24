@@ -21,7 +21,7 @@ vertical_speed = vertical_speed + gravity_modifer;
 
 if(place_meeting(x, y+1, obj_wall)) && (_key_jump){
 	if(jump_count < 2){
-		vertical_speed += -5;
+		vertical_speed += jump_speed;
 		jump_count++;
 		show_debug_message("Jumping!");
 	}

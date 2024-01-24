@@ -13,3 +13,4 @@ current_slap_timer = slap_reset;
 looking_for = [obj_citizen];
 
 jump_count = 0;
+jump_speed = -10;

@@ -1,5 +1,5 @@
-var _x_offset = 42;
-var _y_offset = 50;
+var _x_offset = 37;
+var _y_offset = 85;
 
 x = obj_player.x + _x_offset;
 y = obj_player.y + _y_offset;
