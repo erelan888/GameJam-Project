@@ -30,6 +30,7 @@
     {"name":"obj_transition","order":11,"path":"objects/obj_transition/obj_transition.yy",},
     {"name":"spr_citizen","order":2,"path":"sprites/spr_citizen/spr_citizen.yy",},
     {"name":"obj_goblin","order":3,"path":"objects/obj_goblin/obj_goblin.yy",},
+    {"name":"spr_citizen_consuming","order":19,"path":"sprites/spr_citizen_consuming/spr_citizen_consuming.yy",},
     {"name":"spr_title","order":17,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"obj_splash_screen","order":2,"path":"objects/obj_splash_screen/obj_splash_screen.yy",},
     {"name":"obj_propaganda","order":4,"path":"objects/obj_propaganda/obj_propaganda.yy",},

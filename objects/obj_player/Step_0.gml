@@ -64,3 +64,4 @@ switch(player_state){
 		PlayerState_Attack_Combo();
 		break;
 }
+if(horizontal_speed != 0) image_xscale = -sign(horizontal_speed);

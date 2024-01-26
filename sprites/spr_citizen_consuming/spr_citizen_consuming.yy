@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_citizen",
-  "bbox_bottom": 142,
-  "bbox_left": 12,
-  "bbox_right": 58,
-  "bbox_top": 17,
+  "name": "spr_citizen_consuming",
+  "bbox_bottom": 140,
+  "bbox_left": 0,
+  "bbox_right": 63,
+  "bbox_top": 7,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"698a80b0-3340-40b1-b422-bf5c719cbe1c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"17d20cea-b2ee-4277-abe6-2c66461b0d6e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 201,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"77312fa8-8baf-4adb-b67d-d36c9c59ba69","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0a35e72b-e75f-4be9-948f-0fb88b72d2a3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_citizen",
+    "name": "spr_citizen_consuming",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"698a80b0-3340-40b1-b422-bf5c719cbe1c","path":"sprites/spr_citizen/spr_citizen.yy",},},},"Disabled":false,"id":"8e3fecf5-8210-4076-bffa-278f95a175f3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"17d20cea-b2ee-4277-abe6-2c66461b0d6e","path":"sprites/spr_citizen_consuming/spr_citizen_consuming.yy",},},},"Disabled":false,"id":"db4ac12d-522f-4547-a4ba-ea2b700d1fa1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

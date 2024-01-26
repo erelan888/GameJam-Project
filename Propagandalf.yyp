@@ -49,6 +49,7 @@
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"spr_citizen","path":"sprites/spr_citizen/spr_citizen.yy",},},
     {"id":{"name":"obj_goblin","path":"objects/obj_goblin/obj_goblin.yy",},},
+    {"id":{"name":"spr_citizen_consuming","path":"sprites/spr_citizen_consuming/spr_citizen_consuming.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"obj_splash_screen","path":"objects/obj_splash_screen/obj_splash_screen.yy",},},
     {"id":{"name":"obj_propaganda","path":"objects/obj_propaganda/obj_propaganda.yy",},},

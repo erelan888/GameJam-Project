@@ -18,7 +18,7 @@ hit_points = max_hp;
 
 damage = 1;
 attack_cooldown = 45;
-attack_distance = 30;
+attack_distance = 90;
 target = obj_player;
 looking_for = [obj_player]; 
 
