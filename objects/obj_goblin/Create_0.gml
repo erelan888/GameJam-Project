@@ -25,7 +25,7 @@ looking_for = [obj_player];
 target_x = target.x;
 target_y = target.y;
 
-walk_speed = 2.5;
+walk_speed = 4;
 horizontal_speed = walk_speed;
 vertical_speed = 0;
 gravity_modifier = 0.3;

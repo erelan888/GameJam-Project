@@ -53,15 +53,31 @@ switch(player_state){
 		}
 
 		y += vertical_speed;
-		//Animation - TODO
-	
+		//change sprite
+		if(sprite_index == spr_player_slap){
+			sprite_index = spr_player;	
+		}
+		//but did you attack tho?
 		if(_key_attack) player_state = PLAYERSTATE.ATTACK_SLASH;
 		break;
 	case PLAYERSTATE.ATTACK_SLASH:
-		PlayerState_Attack_Slash();
-		break;
-	case PLAYERSTATE.ATTACK_COMBO:
-		PlayerState_Attack_Combo();
+		if(current_slap_timer <= 0){
+			show_debug_message("Slapping the shit out of someone");
+			current_slap_timer = slap_reset;
+			sprite_index = spr_player_slap;
+			//do the actual attack?
+			var _attack_result = collision_rectangle(x - attack_distance, y - attack_distance, x + attack_distance, y + attack_distance, obj_citizen, false, true);
+			if(_attack_result != noone){
+				with(_attack_result){
+					_attack_result.current_state = CITIZEN_STATE.CHILL;	
+					_attack_result.consumption_countdown = _attack_result.consumption_countdown_max;
+					_attack_result.sprite_index = spr_citizen;
+				}
+			} else {
+				//attack missed
+			}
+		}
+		player_state = PLAYERSTATE.FREE;
 		break;
 }
 if(horizontal_speed != 0) image_xscale = -sign(horizontal_speed);

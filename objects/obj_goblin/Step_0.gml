@@ -39,7 +39,7 @@ switch(current_state){
 			}
 		}
 
-		x += (horizontal_speed * (current_speed_modifier + (elapsed_time/1000)));
+		x += horizontal_speed;
 		
 		//handle vertical collision
 		if(place_meeting(x, y+vertical_speed, obj_wall)){
