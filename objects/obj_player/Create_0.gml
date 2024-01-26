@@ -14,3 +14,12 @@ looking_for = [obj_citizen];
 
 jump_count = 0;
 jump_speed = -10;
+
+player_state = PLAYERSTATE.FREE;
+hitByAttack = ds_list_create();
+
+enum PLAYERSTATE {
+	FREE,
+	ATTACK_SLASH,
+	ATTACK_COMBO
+}
