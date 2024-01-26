@@ -9,6 +9,7 @@ enum CITIZEN_STATE { CHILL, CHASING, CONSUMING };
 current_state = CITIZEN_STATE.CHILL;
 consumption_countdown_max = 120;
 consumption_countdown = 0;
+played_consuming_flip = false;
 
 //Perception
 perception_radius = 20;

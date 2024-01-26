@@ -1,7 +1,10 @@
 enum FOLLOW_STATE { INCREASING, DECREASING };
+enum FLOAT_STATE { RAISING, LOWERING};
 
-hit_points = 20;
-drop_timer = 120;
+max_hit_points = 20;
+hit_points = max_hit_points;
+flash = 0;
+drop_timer = 60;
 should_drop_propanda = true;
 
 target_x = xstart;
@@ -13,8 +16,9 @@ vertical_speed = 0;
 gravity_modifier = 0.1;
 
 follow = obj_player;
-follow_offset = 30;
-follow_min = 5;
 follow_max = 300;
+retarget_cooldown = 8;
+float_state = FLOAT_STATE.RAISING;
 
-follow_state = FOLLOW_STATE.INCREASING;
+vertical_max = ystart + 30;
+vertical_min = ystart - 30;

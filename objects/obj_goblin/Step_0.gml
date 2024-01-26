@@ -22,6 +22,9 @@ switch(current_state){
 		
 		break;
 	case GOBLIN_STATE.CHASING:
+		if(sprite_index != spr_goblin_walk){
+			sprite_index = spr_goblin_walk;	
+		}
 		target_x = target.x;
 		target_y = target.y;
 		//choose direction based on target
@@ -39,7 +42,7 @@ switch(current_state){
 			}
 		}
 
-		x += horizontal_speed;
+		x += horizontal_speed + (variable_speed);
 		
 		//handle vertical collision
 		if(place_meeting(x, y+vertical_speed, obj_wall)){
@@ -75,18 +78,20 @@ switch(current_state){
 
 if(horizontal_speed != 0) image_xscale = -sign(horizontal_speed);
 
-talk_timer--;
+//talk_timer--;
 
-if(talk_timer <= 0){
+//if(talk_timer <= 0){
 	
-	//var _choice = irandom_range(1,10);
-	//if(_choice > 5){
-	//	var _inst = instance_create(x,y,obj_explative);	
-	//	inst.creator = id;
-	//} else {
-	//	var _inst = instance_create(x,y,obj_explative_7);	
-	//	inst.creator = id;
-	//}
+//	var _choice = irandom_range(1,10);
+//	if(_choice > 3){
+//		sprite_index = spr_full_goblin;
+//	} else if(_choice > 3 && _choice < 7){
+//		sprite_index = spr_full_goblin_with_sign
+//	} else if(_choice >= 7) {
+//		sprite_index = spr_full_goblin_with_sign_7
+//	} else{
+//		sprite_index = spr_full_goblin;
+//	}
 	
-	talk_timer = max_talk_cooldown;
-}
+//	talk_timer = max_talk_cooldown;
+//}

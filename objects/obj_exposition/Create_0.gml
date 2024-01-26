@@ -1,0 +1,1 @@
+exposition_index = 1;

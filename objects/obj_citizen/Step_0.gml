@@ -3,11 +3,17 @@ vertical_speed = vertical_speed + gravity_modifier;
 
 switch(current_state){
 	case CITIZEN_STATE.CHILL:
+		if(sprite_index != spr_villager_walk){
+			sprite_index = spr_villager_walk;	
+		}
 		target_x = irandom_range(x - wander_distance, x + wander_distance);
 		current_state = CITIZEN_STATE.CHASING;
 		
 		break;
 	case CITIZEN_STATE.CHASING:
+		if(sprite_index != spr_villager_walk){
+			sprite_index = spr_villager_walk;	
+		}
 		distance_from_target = x - target_x;
 		//Check if at target location
 		if(abs(distance_from_target) < 2){
@@ -45,11 +51,15 @@ switch(current_state){
 		break;
 	case CITIZEN_STATE.CONSUMING:
 		consumption_countdown++;
-		sprite_index = spr_citizen_consuming;
+		if(played_consuming_flip == false){
+			sprite_index = spr_villager_consuming;
+		}
+		
 		//TODO: play consuming animation
 		if(has_been_slapped == true){
 			current_state = CITIZEN_STATE.CHILL;
 			sprite_index = spr_citizen;
+			played_consuming_flip = false;
 			consumption_countdown = 0;
 			has_been_slapped = false;
 			//Start converting villagers close by
