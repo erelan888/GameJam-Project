@@ -39,7 +39,7 @@ switch(current_state){
 			}
 		}
 
-		x += horizontal_speed;
+		x += (horizontal_speed * (current_speed_modifier + (elapsed_time/1000)));
 		
 		//handle vertical collision
 		if(place_meeting(x, y+vertical_speed, obj_wall)){
@@ -59,7 +59,6 @@ switch(current_state){
 		if(attack_cooldown <= 0){
 			if(_distance <= other.attack_distance){
 				var _attack_result = collision_rectangle(x-other.attack_distance, y-other.attack_distance, x+other.attack_distance, y+other.attack_distance, obj_player, false, true);
-				//TODO: Play attack animation
 				//TODO: Play attack sound
 				if(_attack_result != noone){
 					with(_attack_result){
@@ -75,3 +74,19 @@ switch(current_state){
 }
 
 if(horizontal_speed != 0) image_xscale = -sign(horizontal_speed);
+
+talk_timer--;
+
+if(talk_timer <= 0){
+	
+	//var _choice = irandom_range(1,10);
+	//if(_choice > 5){
+	//	var _inst = instance_create(x,y,obj_explative);	
+	//	inst.creator = id;
+	//} else {
+	//	var _inst = instance_create(x,y,obj_explative_7);	
+	//	inst.creator = id;
+	//}
+	
+	talk_timer = max_talk_cooldown;
+}

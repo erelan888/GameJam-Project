@@ -29,3 +29,8 @@ walk_speed = 2.5;
 horizontal_speed = walk_speed;
 vertical_speed = 0;
 gravity_modifier = 0.3;
+current_speed_modifier = 1;
+elapsed_time = 0;
+
+max_talk_cooldown = 60;
+talk_timer = max_talk_cooldown;

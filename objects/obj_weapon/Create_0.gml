@@ -1,4 +1,4 @@
-firing_delay = 0;
+firing_delay = 10;
 projectile_speed = 25;
 recoil = 0;
 //Test
